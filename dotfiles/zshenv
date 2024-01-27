@@ -1,0 +1,2 @@
+export export ZSH_THEME="powerlevel10k/powerlevel10k"
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#475c61,bg=none"
