@@ -8,10 +8,6 @@ config:
   link_on_import: nolink
   longkey: false
 dotfiles:
-  f_mycustomtheme.omp.json:
-    src: mycustomtheme.omp.json
-    dst: ~/.mycustomtheme.omp.json
-    chmod: '755'
   f_zprofile:
     src: zprofile
     dst: ~/.zprofile
@@ -27,12 +23,20 @@ dotfiles:
   f_gitconfig:
     src: gitconfig
     dst: ~/.gitconfig
+  f_testcontainers.properties:
+    src: testcontainers.properties
+    dst: ~/.testcontainers.properties
+  f_mycustomtheme.omp.json:
+    src: mycustomtheme.omp.json
+    dst: ~/.mycustomtheme.omp.json
+    chmod: '755'
 profiles:
   Jorans-MacBook-Pro.local:
     dotfiles:
-    - f_mycustomtheme.omp.json
     - f_zprofile
     - f_zshenv
     - f_zshrc
     - f_bashrc
     - f_gitconfig
+    - f_testcontainers.properties
+    - f_mycustomtheme.omp.json
