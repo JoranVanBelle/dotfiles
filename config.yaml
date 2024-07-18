@@ -30,6 +30,24 @@ dotfiles:
     src: mycustomtheme.omp.json
     dst: ~/.mycustomtheme.omp.json
     chmod: '755'
+  f_ideavimrc:
+    src: ideavimrc
+    dst: ~/.ideavimrc
+  d_nvim:
+    src: config/nvim
+    dst: ~/.config/nvim
+  f_:x:
+    src: config/nvim/:x
+    dst: ~/.config/nvim/:x
+  f_init.lua:
+    src: config/nvim/init.lua
+    dst: ~/.config/nvim/init.lua
+  f_lazy-lock.json:
+    src: config/nvim/lazy-lock.json
+    dst: ~/.config/nvim/lazy-lock.json
+  d_lua:
+    src: config/nvim/lua
+    dst: ~/.config/nvim/lua
 profiles:
   Jorans-MacBook-Pro.local:
     dotfiles:
@@ -40,3 +58,9 @@ profiles:
     - f_gitconfig
     - f_testcontainers.properties
     - f_mycustomtheme.omp.json
+    - f_ideavimrc
+    - d_nvim
+    - f_:x
+    - f_init.lua
+    - f_lazy-lock.json
+    - d_lua
