@@ -1,9 +1,0 @@
-{
-  "promptDelete": false,
-  "attachmentFolderPath": "zz_attachements",
-  "defaultViewMode": "preview",
-  "alwaysUpdateLinks": true,
-  "vimMode": true,
-  "showRibbon": true,
-  "readableLineLength": false
-}
