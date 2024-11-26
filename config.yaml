@@ -48,6 +48,9 @@ dotfiles:
   d_lua:
     src: config/nvim/lua
     dst: ~/.config/nvim/lua
+  f_bash_profile:
+    src: bash_profile
+    dst: ~/.bash_profile
 profiles:
   Jorans-MacBook-Pro.local:
     dotfiles:
@@ -64,3 +67,4 @@ profiles:
     - f_init.lua
     - f_lazy-lock.json
     - d_lua
+    - f_bash_profile
