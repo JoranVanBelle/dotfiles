@@ -51,6 +51,9 @@ dotfiles:
   f_bash_profile:
     src: bash_profile
     dst: ~/.bash_profile
+  f_gitignore_global:
+    src: gitignore_global
+    dst: ~/.gitignore_global
 profiles:
   Jorans-MacBook-Pro.local:
     dotfiles:
@@ -68,3 +71,4 @@ profiles:
     - f_lazy-lock.json
     - d_lua
     - f_bash_profile
+    - f_gitignore_global
