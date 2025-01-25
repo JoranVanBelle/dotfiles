@@ -1,0 +1,5 @@
+return {
+    {
+        'neovimhaskell/haskell-vim',
+    }
+}
