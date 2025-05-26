@@ -113,6 +113,8 @@ function pull_remote() {
 alias dr="open -a Docker"
 alias gtd="git tag -d"
 alias gbf="pull_remote"
+alias vim="nvim"
+alias mvnsa="mvn spotless:apply"
 
 source ~/.bash_profile;
 
@@ -121,3 +123,5 @@ source ~/.bash_profile;
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
   eval "$(oh-my-posh init zsh --config ~/.mycustomtheme.omp.json)"
 fi
+
+[ -f "/Users/joran/.ghcup/env" ] && . "/Users/joran/.ghcup/env" # ghcup-env
